@@ -4,7 +4,7 @@ function fibNumber(n) {
     else
         return fibNumber(n - 2) + fibNumber(n - 1);
 }
-var userNumber = +prompt('Введіть  номер числа Фибоначчі');
+var userNumber = +prompt('Input your number:');
 alert(fibNumber(userNumber));
 
 var arrNumber = parseInt(prompt("Input your number: "));
